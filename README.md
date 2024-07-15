@@ -20,9 +20,7 @@ This repository is structured to keep track of solutions to coding problems cate
 
 | Date       | Problem ID | Problem Title                              | Language | Difficulty | Notes               |
 |------------|------------|--------------------------------------------|----------|------------|---------------------|
-| 2024-07-15 | 001        | Two Sum                                    | Python   | Easy       | Initial attempt     |
-| 2024-07-16 | 002        | Add Two Numbers                            | C#       | Medium     | Improved solution   |
-| 2024-07-17 | 003        | Longest Substring Without Repeating        | SQL      | Hard       | Needs optimization  |
+| 2024-07-15 | 001        | Container with Most Water                  | Python   | Easy       | Initial attempt     |
 
 
 ## Discussion Log
