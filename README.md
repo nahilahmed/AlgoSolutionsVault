@@ -21,6 +21,7 @@ This repository is structured to keep track of solutions to coding problems cate
 | Date       | Problem ID | Problem Title                              | Language | Difficulty | Notes               |
 |------------|------------|--------------------------------------------|----------|------------|---------------------|
 | 2024-07-15 | 001        | Container with Most Water                  | Python   | Easy       | Initial attempt     |
+| 2024-07-15 | 002        | Find Equilibrium Index                     | Python   | Easy       | Prefix Sum          |
 
 
 ## Discussion Log
@@ -29,7 +30,7 @@ This repository is structured to keep track of solutions to coding problems cate
 
 | Date       | Friends Involved | Topics Discussed                                      | Notes                              |
 |------------|------------------|-------------------------------------------------------|------------------------------------|
-| 2024-07-15 | Anil, Jibin      | Prefix Sum                                            | Decided to solve one problem/day   |
+| 2024-07-15 | Anil,Jibin,SJY   | Prefix Sum                                            | Decided to solve one problem/day   |
 
 
 ## File Structure
@@ -39,6 +40,7 @@ This repository is structured to keep track of solutions to coding problems cate
 ├── README.md
 ├── Python
 │   ├── 001_Container-with-most-water.py
+│   ├── 002_Find_Equilibrium_Index_Prefix_Sum.py
 ├── CSharp
 │   ├── 
 ├── SQL
