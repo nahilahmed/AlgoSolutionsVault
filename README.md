@@ -22,6 +22,7 @@ This repository is structured to keep track of solutions to coding problems cate
 |------------|------------|--------------------------------------------|----------|------------|---------------------|
 | 2024-07-15 | 001        | Container with Most Water                  | Python   | Easy       | Initial attempt     |
 | 2024-07-15 | 002        | Find Equilibrium Index                     | Python   | Easy       | Prefix Sum          |
+| 2024-07-16 | 003        | Subarray Zero Sum                          | Python   | Easy       | BruteForce          |
 
 
 ## Discussion Log
@@ -41,8 +42,10 @@ This repository is structured to keep track of solutions to coding problems cate
 ├── Python
 │   ├── 001_Container-with-most-water.py
 │   ├── 002_Find_Equilibrium_Index_Prefix_Sum.py
+│   ├── 003_Subarray_Zero_Sum.py
 ├── CSharp
-│   ├── 
+│   ├── 001_Container-with-most-water.cs
+│   ├── 002_Find_Equilibrium_Index_Prefix_Sum.cs
 ├── SQL
 │   ├── 
 └── Logs
