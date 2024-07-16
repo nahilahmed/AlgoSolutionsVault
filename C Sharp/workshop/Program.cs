@@ -43,14 +43,14 @@ public int countZeroSumSubarray(int[] arr)
     }
 
     int count = 0;
-    if (prefSum[arr.Length - 1] == 0)
-    {
-        count++;
-    }
     foreach (int key in hs.Keys)
     {
         int val = hs[key];
         if (val > 1)
+        {
+            count += val * (val - 1) / 2;
+        }
+        if (key == 0)
         {
             count += val;
         }
@@ -58,6 +58,5 @@ public int countZeroSumSubarray(int[] arr)
     return count;
 
 }
-
-int[] arr = new int[]{1, 2, -2, -1, 0, 1, -1};
+int[] arr = new int[]{0,0,0,0};
 Console.WriteLine(countZeroSumSubarray(arr));
