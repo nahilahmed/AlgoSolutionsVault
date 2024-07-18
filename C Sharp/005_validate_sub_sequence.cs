@@ -1,8 +1,3 @@
-
-global using System;
-
-Console.WriteLine("Hello, World!");
-
 public bool isSubsequence(string s,string t){
     int tempIdx = 0;
     for(int i = 0;i< t.Length;i++){
@@ -16,4 +11,10 @@ public bool isSubsequence(string s,string t){
     }
     return false;
 }
-Console.WriteLine(countZeroSumSubarray(arr));
+
+
+/**
+*Question 
+*392 Leetcode
+*https://leetcode.com/problems/is-subsequence
+*/
