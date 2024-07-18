@@ -10,9 +10,8 @@ class Solution:
             max_area = max(max_area, local_area)
 
             if height[l] < height[r]:
-                l+=1
+                l += 1
             else:
-                r-=1
+                r -= 1
 
         return max_area
-        
