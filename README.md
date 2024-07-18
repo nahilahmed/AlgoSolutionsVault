@@ -24,6 +24,7 @@ This repository is structured to keep track of solutions to coding problems cate
 | 2024-07-15 | 002        | Find Equilibrium Index                     | Python   | Easy       | Prefix Sum          |
 | 2024-07-16 | 003        | Subarray Zero Sum                          | Python   | Easy       | BruteForce, Cum Sum |
 | 2024-07-17 | 004        | Two Sum                                    | Python   | Easy       | BruteForce, Hash    |
+| 2024-07-18 | 005        | Is Subsequence String                      | Python   | Easy       | String              |
 
 
 ## Discussion Log
@@ -45,6 +46,7 @@ This repository is structured to keep track of solutions to coding problems cate
 │   ├── 002_Find_Equilibrium_Index_Prefix_Sum.py
 │   ├── 003_Subarray_Zero_Sum.py
 │   ├── 004_Two_Sum.py
+│   ├── 005_Is_Subsequence_String.py
 ├── CSharp
 │   ├── 001_Container-with-most-water.cs
 │   ├── 002_Find_Equilibrium_Index_Prefix_Sum.cs
