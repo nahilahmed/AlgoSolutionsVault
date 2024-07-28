@@ -1,19 +1,28 @@
 
 global using System;
 
-Console.WriteLine("Hello, World!");
-
-public bool isSubsequence(string s,string t){
-    int tempIdx = 0;
-    for(int i = 0;i< t.Length;i++){
-        if(tempIdx < s.Length &&t.Contains(s[tempIdx]) ){
-            if(t[i] == s[tempIdx])
-            tempIdx++;
+public int[] insertionSort(int[] A){
+    int n = A.Length;
+    for(int i = 1; i < n;i++){
+        int key = A[i];
+        int j = i-1;
+        while(j >= 0 && key < A[j]){
+            A[j+1] = A[j];
+            j--;
         }
+        A[j+1] = key;
     }
-    if(tempIdx == s.Length){
-        return true;
-    }
-    return false;
+    return A;
 }
-Console.WriteLine(countZeroSumSubarray(arr));
+
+int[] arr = {  3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+insertionSort(arr);
+printArray(arr);
+
+
+//print array
+public void printArray(int[] arr){
+    Console.WriteLine("[" + string.Join(",", arr) + "]");
+}
+
+// Command to run above code "dotnet script Program.cs"
