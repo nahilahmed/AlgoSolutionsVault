@@ -1,6 +1,3 @@
-
-global using System;
-
 public int[] selectionSort(int[] A)
 {
     int n = A.Length;
@@ -22,16 +19,3 @@ public int[] selectionSort(int[] A)
     }
     return A;
 }
-
-int[] arr = { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5 };
-selectionSort(arr);
-printArray(arr);
-
-
-//print array
-public void printArray(int[] arr)
-{
-    Console.WriteLine("[" + string.Join(",", arr) + "]");
-}
-
-// Command to run above code "dotnet script Program.cs"
