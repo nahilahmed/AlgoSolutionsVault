@@ -19,3 +19,9 @@ public int[] selectionSort(int[] A)
     }
     return A;
 }
+
+@"
+TC = O(n);
+SC = O(1);
+UnStable
+"
